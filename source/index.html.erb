@@ -11,7 +11,7 @@
         <option value="2">2 guests</option>
         <option value="3">3 guests</option>
       </select>
-      <a class="btn btn-primary btn-lg">Search</a>
+      <%= link_to "Search", "#", class: "btn btn-primary btn-lg" %>
     </form>
   </div>
 </div>
@@ -21,22 +21,26 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-3">
-        <img src="images/globe.png" alt="">
+        <%= image_tag "globe.png" %>
+        <!-- <img src="images/globe.png" alt=""> -->
         <h2>Discover world</h2>
         <p>Understand how it works</p>
       </div>
       <div class="col-sm-6 col-md-3">
-        <img src="images/dollar.png" alt="">
+        <%= image_tag "dollar.png" %>
+        <!-- <img src="images/dollar.png" alt=""> -->
         <h2>Money is not happiness</h2>
         <p>Don't get mixed up</p>
       </div>
       <div class="col-sm-6 col-md-3">
-        <img src="images/beer.png" alt="">
+        <%= image_tag "beer.png" %>
+        <!-- <img src="images/beer.png" alt=""> -->
         <h2>Alcool is no good</h2>
         <p>Don't get fooled</p>
       </div>
       <div class="col-sm-6 col-md-3">
-        <img src="images/heart.png" alt="">
+        <%= image_tag "heart.png" %>
+        <!-- <img src="images/heart.png" alt=""> -->
         <h2>All we need is love</h2>
         <p>Such a great feeling</p>
       </div>
@@ -56,8 +60,10 @@
             <h2>Seb's home</h2>
             <p>Very cool home</p>
           </div>
-          <img class="card-user avatar" src="images/seb.jpg">
-          <a class="card-link" href="#" ></a>
+          <%= image_tag "seb.jpg", class: "card-user avatar" %>
+          <!-- <img class="card-user avatar" src="images/seb.jpg"> -->
+          <%= link_to "", "#", class: "card-link" %>
+         <!--  <a class="card-link" href="#" ></a> -->
         </div>
       </div>
       <div class="col-sm-4">
@@ -67,8 +73,9 @@
             <h2>Romain's home</h2>
             <p>Great home</p>
           </div>
-          <img class="card-user avatar" src="images/romain.jpeg">
-          <a class="card-link" href="#" ></a>
+          <%= image_tag "romain.jpeg", class: "card-user avatar" %>
+          <!-- <img class="card-user avatar" src="images/romain.jpeg"> -->
+          <%= link_to "", "#", class: "card-link" %>
         </div>
       </div>
       <div class="col-sm-4">
@@ -78,8 +85,9 @@
             <h2>Anne's home</h2>
             <p>Very nice home</p>
           </div>
-          <img class="card-user avatar" src="images/anne.jpg">
-          <a class="card-link" href="#" ></a>
+          <%= image_tag "anne.jpg", class: "card-user avatar" %>
+          <!-- <img class="card-user avatar" src="images/anne.jpg"> -->
+          <%= link_to "", "#", class: "card-link" %>
         </div>
       </div>
     </div>
