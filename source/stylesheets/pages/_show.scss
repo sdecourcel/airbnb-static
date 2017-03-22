@@ -9,7 +9,7 @@
     margin-top: 10px;
   }
 }
-.code-vision {
+.container-paragraph {
    margin: 40px 0;
   h3 {
     margin-bottom: 20px;
@@ -19,8 +19,14 @@
   p {
     margin-left: 20px;
   }
-  .warnings-list {
-    text-decoration: none;
+  .warnings-content {
+    list-style: none;
   }
 }
+.img-circle {
+  height: 300px;
+  width: 300px;
+}
+
+
 

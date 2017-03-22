@@ -15,24 +15,49 @@
       <h2><%= teacher.summary %></h2>
       <h3><%= teacher.add_summary %></h3>
     </div>
-    <div class="code-vision">
+    <div class="container-paragraph">
       <h3>Life code vision</h3>
-      <ul class="code-vision-list">
+      <ul>
         <% teacher.code_vision.each do |item| %>
           <li><%= item %></li>
         <% end %>
       </ul>
     </div>
-    <div class="warnings">
+    <div class="container-paragraph warnings">
       <h3>Warnings</h3>
       <div>
         <p><strong><%= teacher.warnings.warnings_title %></strong></p>
-        <ul class="warnings-list">
-          <% teacher.warnings.warnings_list.each do |item| %>
-            <li><%= item %></li>
-          <% end %>
-        </ul>
+        <% unless teacher.warnings.warnings_content.nil? %>
+          <ul class="warnings-content">
+            <% teacher.warnings.warnings_content.each do |item| %>
+              <li><%= item %></li>
+            <% end %>
+          </ul>
+        <% end %>
+        <% unless teacher.warnings.warnings_list.nil? %>
+          <ul class="warnings-list">
+            <% teacher.warnings.warnings_list.each do |item| %>
+              <li><%= item %></li>
+            <% end %>
+          </ul>
+        <% end %>
       </div>
+    </div>
+    <div class="container-paragraph">
+      <h3>Teaching overview</h3>
+      <ul>
+        <% teacher.teaching_overview.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="container-paragraph">
+      <h3>Speech transitions</h3>
+      <ul>
+        <% teacher.speech_transitions.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+      </ul>
     </div>
   </div>
 </div>
