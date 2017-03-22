@@ -1,3 +1,26 @@
-.banner-flat {
-  height: 300;
+.show-container {
+  color: #0a475d;
+  h3 {
+    font-size: 24px;
+  }
 }
+.summary {
+  h3 {
+    margin-top: 10px;
+  }
+}
+.code-vision {
+   margin: 40px 0;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+.warnings {
+  p {
+    margin-left: 20px;
+  }
+  .warnings-list {
+    text-decoration: none;
+  }
+}
+

@@ -2,7 +2,7 @@
   color: white;
   background-color: #61e5ff;
   text-align: center;
-  height: 500px;
+  height: 250px;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -22,5 +22,15 @@
 }
 .banner-flat {
   height: 300;
+}
+.banner-show {
+  text-align: center;
+  color: white;
+  background-color: #61e5ff;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  padding: 20px;
 }
 

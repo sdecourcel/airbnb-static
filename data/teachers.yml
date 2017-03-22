@@ -1,0 +1,25 @@
+seb:
+  name: Sébastien Saunier
+  summary: That teacher is an absolute dream
+  add_summary: Manages anything being clear and understood
+  picture: seb.jpg
+  code_vision:
+    - Let's create our world
+    - Embrace simplicity
+    - Embrace asynchronicity
+    - Don't pull me from the zone
+    - Keep learning
+    - If you can't explain it simply, you don't understand it well enough
+    - Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live
+    - Il y a plein de gens talentueux partout
+    - C'est bien foutu quand même, les mecs ils ont réfléchi...
+  warnings:
+    warnings_title: Sharpened mind scanning questions faster than a computer
+    warnings_list:
+      - "Vous entendrez souvent : « Des questions ? N'hésitez pas... »"
+      - "=> Ne tremblez pas trop... Surtout : réfléchissez à la pertinence de votre question avant de la poser..."
+boris:
+  name: Boris Paillard
+  summary: Very good scaringly pale teacher
+  add_summary: As if he's been painting the town red all night
+  picture: papillard.jpeg

@@ -1,0 +1,43 @@
+<!-- Read from data.flats with owner's name as key -->
+<% teacher = data.teachers[owner] %>
+
+
+<!-- Your banner code -->
+<div class="banner-show" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);">
+  <div>
+    <%= image_tag teacher.picture, class: "img-circle" %>
+    <h2><%= teacher.name %></h2>
+  </div>
+</div>
+<div class="container">
+  <div class="show-container">
+    <div class="summary text-center">
+      <h2><%= teacher.summary %></h2>
+      <h3><%= teacher.add_summary %></h3>
+    </div>
+    <div class="code-vision">
+      <h3>Life code vision</h3>
+      <ul class="code-vision-list">
+        <% teacher.code_vision.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="warnings">
+      <h3>Warnings</h3>
+      <div>
+        <p><strong><%= teacher.warnings.warnings_title %></strong></p>
+        <ul class="warnings-list">
+          <% teacher.warnings.warnings_list.each do |item| %>
+            <li><%= item %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
