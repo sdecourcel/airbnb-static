@@ -2,12 +2,14 @@
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   // background-size: cover !important;
   color: white;
-  background-color: #0881a3;
+  background-color: #73b8bb;
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
-  height: 300px;
+  height: 350px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   .card-user {
   position: absolute;
   right: 10px;
@@ -44,8 +46,9 @@
   .card-link:hover{
     opacity: 0.1;
   }
-  .card-center {
-    flex: 0 0 auto;
+  .card-top {
+    position: absolute;
+    top: 50px;
   }
 }
 

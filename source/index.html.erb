@@ -1,7 +1,7 @@
 <!-- Your banner code -->
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
   <div class="banner-content">
-    <h1>LES ETONNANTS PROFESSEURS DU WAGON</h1>
+    <h1>Les étonnants professeurs du Wagon</h1>
     <h2>Et leur drôle de façon de s'exprimer</h2>
   </div>
 </div>
@@ -18,8 +18,10 @@
               <h2><%= flat.name %></h2>
               <p><%= flat.summary %></p>
             </div>
-            <div class="card-center">
-              <%= image_tag flat.owner_picture, class: "card-center avatar-very-extra-large" %>
+            <div class="card-top">
+              <div>
+                 <%= image_tag flat.owner_picture, class: "avatar-very-extra-large" %>
+              </div>
             </div>
             <%= link_to "", "flats/#{owner}.html", class: "card-link" %>
             <!--  <a class="card-link" href="#" ></a> -->
